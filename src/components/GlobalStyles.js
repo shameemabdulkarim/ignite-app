@@ -39,6 +39,9 @@ const GlobalStyles = createGlobalStyle`
         color:#333;
         cursor: pointer;
     }
+    img{
+        display:block;
+    }
 `;
 
 export default GlobalStyles;
