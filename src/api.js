@@ -37,3 +37,5 @@ export const gameDetailsURL = (game_id) =>
   `${base_url}games/${game_id}?key=${process.env.REACT_APP_ROWG_API}`;
 export const gameScreenshotURL = (game_id) =>
   `${base_url}games/${game_id}/screenshots?key=${process.env.REACT_APP_ROWG_API}`;
+export const searchedGameURL = (game_name) =>
+  `${base_url}games?key=${process.env.REACT_APP_ROWG_API}&search=${game_name}`;
